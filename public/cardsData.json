@@ -81,8 +81,33 @@
       "iconColor": "#d35400",
       "title": "Physique-chimie",
       "text": "Liens pédagogiques pour le cours de physique-chimie.",
-      "link": "https://forum.pt-dorian.net/index.php?p=/categories/physique-chimie-ptsi",
-      "sublinks": []
+      "link": "http://physique.ptsi-dorian.net/",
+      "sublinks": [
+        {
+          "title": "Générales",
+          "url": "https://forum.pt-dorian.net/index.php?p=/categories/physique-chimie-ptsi"
+        },
+        {
+          "title": "Colles",
+          "url": "https://forum.pt-dorian.net/index.php?p=/categories/colles-pc-ptsi"
+        },
+        {
+          "title": "Cours",
+          "url": "https://forum.pt-dorian.net/index.php?p=/categories/cours-pc-ptsi"
+        },
+        {
+          "title": "DS-DM",
+          "url": "https://forum.pt-dorian.net/index.php?p=/categories/ds-dm-pc-ptsi"
+        },
+        {
+          "title": "TD",
+          "url": "https://forum.pt-dorian.net/index.php?p=/categories/td-pc-ptsi"
+        },
+        {
+          "title": "TP",
+          "url": "https://forum.pt-dorian.net/index.php?p=/categories/tp-pc-ptsi"
+        }
+      ]
     },
     {
       "icon": "faCalculator",
@@ -90,7 +115,12 @@
       "title": "Mathématiques",
       "text": "Liens pédagogiques pour le cours de mathématiques.",
       "link": "https://maths.ptsi-dorian.net/",
-      "sublinks": []
+      "sublinks": [
+        {
+          "title": "Discussions",
+          "url": "https://forum.pt-dorian.net/index.php?p=/categories/mathematiques-ptsi"
+        }
+      ]
     },
     {
       "icon": "faCogs",
@@ -98,7 +128,12 @@
       "title": "Sciences de l'ingénieur",
       "text": "Liens pédagogiques pour le cours de sciences de l'ingénieur.",
       "link": "https://www.costadoat.fr",
-      "sublinks": []
+      "sublinks": [
+        {
+          "title": "Discussions",
+          "url": "https://forum.pt-dorian.net/index.php?p=/categories/sciences-industrielles-ptsi"
+        }
+      ]
     },
     {
       "icon": "faBook",
@@ -106,7 +141,16 @@
       "title": "Lettres",
       "text": "Liens pédagogiques pour le cours de lettres.",
       "link": "/documents/Lettres.pdf",
-      "sublinks": []
+      "sublinks": [
+        {
+          "title": "Discussions",
+          "url": "https://forum.pt-dorian.net/index.php?p=/categories/francais"
+        },
+        {
+          "title": "Œuvres au programme de Lettres",
+          "url": "/documents/Lettres.pdf"
+        }
+      ]
     },
     {
       "icon": "faLightbulb",

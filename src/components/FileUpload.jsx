@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUpload, faUser, faBookOpen, faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faFilePdf, faTimes, faFileImage, faFile, faUser, faBookOpen, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import FileDropzone from '../functions/FileDropzone'
 
 const FileUpload = () => {
@@ -11,7 +11,21 @@ const FileUpload = () => {
     const [selectedDocumentType, setSelectedDocumentType] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
+    const [loading, setLoading] = useState(false);
+    const [progress, setProgress] = useState(0);
+    const [loadingMessage, setLoadingMessage] = useState('');
+
+    const mounted = useRef(true);
+
+    useEffect(() => {
+        return () => {
+            mounted.current = false;
+        };
+    }, []);
+
+
     const handleFileChange = (selectedFile) => {
+        setLoadingMessage(''); // réinitialiser le message de chargement ici
         if (selectedFile) {
             if (
                 selectedFile.type === 'image/png' ||
@@ -29,20 +43,41 @@ const FileUpload = () => {
                 setErrorMessage('Extensions autorisées : png, jpg, jpeg, pdf, py.');
             }
         }
-    };    
+    };
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Ajoutez ici la logique pour envoyer le fichier au serveur ou effectuer d'autres actions nécessaires.
-        console.log('Fichier envoyé :', file);
-        console.log('Prénom :', firstName);
-        console.log('Nom :', lastName);
-        console.log('Matière :', selectedSubject);
-        console.log('Type de document :', selectedDocumentType);
+        if (!file) {
+            setErrorMessage('Veuillez sélectionner un fichier.');
+            return;
+        }
+
+        setLoading(true);
+        setLoadingMessage('Chargement en cours...');
+
+        // Simuler le chargement du fichier
+        const totalSize = file.size; // en octets
+        let loadedSize = 0;
+        const loadingInterval = setInterval(() => {
+            if (mounted.current) {
+                setProgress(currentProgress);
+            }
+
+            loadedSize += totalSize * 0.1; // suppose que 10% de la taille du fichier est chargé chaque seconde
+            const currentProgress = Math.min((loadedSize / totalSize) * 100, 100);
+            setProgress(currentProgress);
+
+            // Mise à jour du message
+            if (currentProgress === 100) {
+                clearInterval(loadingInterval);
+                setLoading(false);
+                setLoadingMessage('Chargement terminé');
+            }
+        }, 1000);
     };
 
     return (
-        <div className="max-w-lg mx-auto p-8 m-8 bg-gradient-to-r from-blue-100 to-blue-50 shadow-lg rounded-lg space-y-6">
+        <div className="max-w-xl mx-auto p-8 m-8 bg-white shadow-lg rounded-lg space-y-6">
             <h2 className="text-4xl font-semibold mb-5 text-center text-blue-800">Dépôt de fichiers</h2>
             <form onSubmit={handleSubmit} className="space-y-5">
                 <div className="grid grid-cols-2 gap-4">
@@ -128,23 +163,65 @@ const FileUpload = () => {
                 <div className="flex items-center justify-center w-full mb-4">
                     <FileDropzone onFileChange={handleFileChange} />
                 </div>
-                {file && <div className="flex items-center justify-center w-full mb-4">
-                    <span className="text-green-500 truncate w-48">{file.name}</span>
-                </div>}
-                <p className="text-red-500 text-sm mt-1 text-center">{errorMessage}</p>
+
+                {file && (
+                    <div className="relative bg-gray-200 p-4 rounded-md shadow-lg">
+                        <button
+                            className="absolute top-2 right-2 text-gray-800 hover:text-gray-600 transition duration-300"
+                            onClick={() => {
+                                setFile(null);
+                                setProgress(0);
+                                setLoading(false);
+                            }}
+                        >
+                            <FontAwesomeIcon icon={faTimes} size="lg" />
+                        </button>
+                        <div className="flex items-center">
+                            <FontAwesomeIcon
+                                icon={file.type === 'application/pdf' ? faFilePdf : file.type.startsWith('image/') ? faFileImage : faFile}
+                                className={`${file.type === 'application/pdf' ? "text-red-500" : file.type.startsWith('image/') ? "text-green-500" : "text-gray-500"} text-4xl ml-3`}
+                            />
+                            <div className="flex flex-col max-w-sm pl-4 flex-grow">
+                                <span className="text-sm font-normal truncate" style={{ maxWidth: 'calc(100% - 1rem)' }}>{file.name}</span>
+                                <span className="text-xs text-gray-500 mt-1">{(file.size / 1024).toFixed(2)} KB</span>
+                                <div className="relative h-1.5 mt-2 w-full rounded">
+                                    <div className="absolute top-0 left-0 w-full h-full bg-white rounded"></div>
+                                    <div className="absolute top-0 left-0 h-full bg-blue-500 w-full rounded"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+
+
+                {
+                    errorMessage && (
+                        <p className="flex items-center border border-red-500 bg-red-100 text-red-500 p-2 rounded text-sm mt-1 text-center">
+                            <FontAwesomeIcon icon={faExclamationTriangle} className="mr-2" />
+                            {errorMessage}
+                        </p>
+                    )
+                }
+
 
                 {/* Envoyer le fichier */}
-                <div className="flex justify-center mt-4">
-                    <button
-                        type="submit"
-                        className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-8 rounded-md transition duration-200 shadow hover:shadow-lg transform hover:scale-105"
-                    >
-                        Envoyer le fichier
-                    </button>
-                </div>
+                <button
+                    type="submit"
+                    disabled={loading}
+                    className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-md transition duration-300 shadow hover:shadow-lg transform hover:scale-105"
+                >
+                    Envoyer le fichier
+                </button>
+
 
 
             </form>
+
+            <a href="/forum/consignes" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 text-sm block text-center mt-4">
+                Consignes pour l'upload de fichiers
+            </a>
+
         </div>
     );
 };
