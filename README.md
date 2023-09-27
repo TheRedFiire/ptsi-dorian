@@ -1,13 +1,53 @@
-<<<<<<< HEAD
-# React + Vite
+# Documentation: Structure de la Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une "card" est représentée par un objet JSON avec les attributs suivants :
 
-Currently, two official plugins are available:
+## Attributs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# ptsi-dorian
-Page d'accueil des outils numériques dédiés aux élèves de CPGE-PTSI du lycée Dorian
->>>>>>> 20d829e8210b6e24764dc929dd55c1de48abe887
+- **icon** *(Obligatoire)* :
+  - Description : Nom de l'icône qui représente la card.
+  - Exemple : "university", "clipboardList", etc.
+  - Ressources : Ces icônes proviennent d'une bibliothèque gratuite disponible sur [Font Awesome](https://fontawesome.com/).
+
+- **iconColor** *(Obligatoire)* :
+  - Description : Couleur de l'icône.
+  - Exemple : Les valeurs peuvent être des valeurs hexadécimals, comme "#ffd383".
+  - Ressources : Pour choisir ces couleurs, vous pouvez utiliser cette ressources [Color Picker](https://htmlcolorcodes.com/color-picker/)
+
+- **title** *(Obligatoire)* :
+  - Description : Titre de la card.
+
+- **text** *(Obligatoire)* :
+  - Description : Description ou texte d'accompagnement de la card.
+
+- **link** *(Conditionnel)* :
+  - Description : Lien de redirection direct de la card.
+  - Note : Si des sous-liens sont présents, cet attribut doit être laissé vide (`""`), sinon il doit contenir l'URL de redirection.
+
+- **sublinks** *(Facultatif)* :
+  - Description : Un tableau d'objets, où chaque objet représente un sous-lien avec un "title" et une "url".
+
+## Exemple de Card
+
+```json
+{
+  "icon": "university",
+  "iconColor": "#ffd383",
+  "title": "Vie de la PTSI",
+  "text": "Découvrez les événements et actualités de la PTSI.",
+  "link": "",
+  "sublinks": [
+    {
+      "title": "Événement sportif",
+      "url": "https://exemple.com/evenement-sportif"
+    },
+    {
+      "title": "Journée portes ouvertes",
+      "url": "https://exemple.com/portes-ouvertes"
+    },
+    {
+      "title": "Conférence invitée",
+      "url": "https://exemple.com/conference"
+    }
+  ]
+}
