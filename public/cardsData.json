@@ -1,0 +1,120 @@
+{
+  "adminDocs": [
+    {
+      "icon": "faCalendarAlt",
+      "iconColor": "#e74c3c",
+      "title": "Emploi du temps 2022-2023",
+      "text": "Consultez l'emploi du temps pour l'année académique 2022-2023.",
+      "link": "/documents/EDT_PTSI_S1.pdf",
+      "sublinks": []
+    },
+    {
+      "icon": "faUsers",
+      "iconColor": "#3498db",
+      "title": "Groupes de TD et TP Semestre 1",
+      "text": "Découvrez les groupes de travaux dirigés et travaux pratiques du semestre 1.",
+      "link": "/documents/groupesS1.pdf",
+      "sublinks": []
+    },
+    {
+      "icon": "faCalendarCheck",
+      "iconColor": "#2ecc71",
+      "title": "Colloscope Semestre 1",
+      "text": "Consultez le calendrier des colles pour le semestre 1.",
+      "link": "/documents/colloscopeS1.pdf",
+      "sublinks": []
+    },
+    {
+      "icon": "faClipboardList",
+      "iconColor": "#34495e",
+      "title": "Planning des devoirs surveillés",
+      "text": "Accédez au planning des devoirs surveillés de la PTSI.",
+      "link": "/documents/dates_DS_etudiant.pdf",
+      "sublinks": []
+    },
+    {
+      "icon": "faUniversity",
+      "iconColor": "#8e44ad",
+      "title": "Vie de la PTSI",
+      "text": "Découvrez les événements et actualités de la PTSI.",
+      "link": "https://forum.pt-dorian.net/index.php?p=/categories/vie-de-la-ptsi",
+      "sublinks": []
+    }
+  ],
+  "generalTools": [
+    {
+      "icon": "faComments",
+      "iconColor": "#e67e22",
+      "title": "Forum général",
+      "text": "Accédez au forum général de la PTSI.",
+      "link": "https://forum.pt-dorian.net",
+      "sublinks": []
+    },
+    {
+      "icon": "faBookOpen",
+      "iconColor": "#1abc9c",
+      "title": "Site des colles",
+      "text": "Visitez le site des colles de la PTSI.",
+      "link": "https://colles.ptsi-dorian.net",
+      "sublinks": []
+    },
+    {
+      "icon": "faGraduationCap",
+      "iconColor": "#9b59b6",
+      "title": "Pronote",
+      "text": "Accédez à Pronote pour consulter vos notes et informations académiques.",
+      "link": "https://0750676c.index-education.net/pronote/",
+      "sublinks": []
+    }
+  ],
+  "pedagogicalLinks": [
+    {
+      "icon": "faLanguage",
+      "iconColor": "#c0392b",
+      "title": "Anglais",
+      "text": "Liens pédagogiques pour le cours d'anglais.",
+      "link": "http://marie-pichon.e-monsite.com/",
+      "sublinks": []
+    },
+    {
+      "icon": "faFlask",
+      "iconColor": "#d35400",
+      "title": "Physique-chimie",
+      "text": "Liens pédagogiques pour le cours de physique-chimie.",
+      "link": "https://forum.pt-dorian.net/index.php?p=/categories/physique-chimie-ptsi",
+      "sublinks": []
+    },
+    {
+      "icon": "faCalculator",
+      "iconColor": "#2c3e50",
+      "title": "Mathématiques",
+      "text": "Liens pédagogiques pour le cours de mathématiques.",
+      "link": "https://maths.ptsi-dorian.net/",
+      "sublinks": []
+    },
+    {
+      "icon": "faCogs",
+      "iconColor": "#16a085",
+      "title": "Sciences de l'ingénieur",
+      "text": "Liens pédagogiques pour le cours de sciences de l'ingénieur.",
+      "link": "https://www.costadoat.fr",
+      "sublinks": []
+    },
+    {
+      "icon": "faBook",
+      "iconColor": "#1abc9c",
+      "title": "Lettres",
+      "text": "Liens pédagogiques pour le cours de lettres.",
+      "link": "/documents/Lettres.pdf",
+      "sublinks": []
+    },
+    {
+      "icon": "faLightbulb",
+      "iconColor": "#f39c12",
+      "title": "TIPE",
+      "text": "Liens pédagogiques pour le TIPE.",
+      "link": "https://forum.pt-dorian.net/index.php?p=/categories/tipe-%28ptsi%29",
+      "sublinks": []
+    }
+  ]
+}
