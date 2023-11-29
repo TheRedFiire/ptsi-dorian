@@ -3,7 +3,7 @@ import Card from './Card';
 import * as icons from '@fortawesome/free-solid-svg-icons';
 
 // URL du fichier JSON dans le répertoire public
-const cardsDataURL = '/cardsData.json?url';
+const cardsDataURL = '/config/cardsData.json?url';
 
 const AdminDocs = () => {
   const [cards, setCards] = useState([]);

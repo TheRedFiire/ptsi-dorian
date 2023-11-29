@@ -1,0 +1,3006 @@
+{
+    "04 sept.": [
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "ABCDE"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABHIJKL"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "CDEFGMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "FGMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "HIJKL"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ABCDE"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        }
+    ],
+    "11 sept.": [
+        {
+            "day": "Mercredi",
+            "start": "15:30",
+            "end": "17:30",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Aubert",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "HIJKL"
+        },
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "FGMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "FGJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABCDEHI"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ABCDE"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "FGMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "HIJKL"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        }
+    ],
+    "18 sept.": [
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "ABCDE"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "AGJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "BCDEFHI"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "BDFHI"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "JKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ACEG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        }
+    ],
+    "25 sept.": [
+        {
+            "day": "Mercredi",
+            "start": "15:30",
+            "end": "17:30",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Aubert",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "HIJKL"
+        },
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "FGMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "CDEFGHN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABIJKLM"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ABIKM"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "CDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "HJLN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        }
+    ],
+    "02 oct.": [
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "BCDEF"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABCKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "DEFGHIJ"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "EGHIJ"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "CKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ABDF"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        }
+    ],
+    "09 oct.": [
+        {
+            "day": "Mercredi",
+            "start": "15:30",
+            "end": "17:30",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Aubert",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "IJKLM"
+        },
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "AGHN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "BDEFGHI"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ACJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ACJLN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "BDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "HIKM"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        }
+    ],
+    "16 oct.": [
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "CDEFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "BCHILMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ADEFGJK"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ADFJK"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "HILMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "BCEG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        }
+    ],
+    "06 nov.": [
+        {
+            "day": "Mercredi",
+            "start": "15:30",
+            "end": "17:30",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Aubert",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "JKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "ABHI"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABEFGIJ"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "CDHKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "CDHKM"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ABEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "IJLN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        }
+    ],
+    "13 nov.": [
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "ADEFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "CDHIJMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABEFGKL"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "BEGKL"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "HIJMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ACDF"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        }
+    ],
+    "20 nov.": [
+        {
+            "day": "Mercredi",
+            "start": "15:30",
+            "end": "17:30",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Aubert",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "HKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "BCIJ"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABCFGJK"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "DEHILMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "DEILN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ABCFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "HJKM"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        }
+    ],
+    "27 nov.": [
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "ABEFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "DEHIJKN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABCFGLM"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ACFLM"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "HIJKN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "BDEG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        }
+    ],
+    "04 dec.": [
+        {
+            "day": "Mercredi",
+            "start": "15:30",
+            "end": "17:30",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Aubert",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "HILMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "CDJK"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABCDGKL"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "EFHIJMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "EFHJM"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ABCDG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "IKLN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        }
+    ],
+    "11 dec.": [
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "ABCFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "EFHIJKL"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABCDGMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "BDGMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "HIJKL"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ACEF"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        }
+    ],
+    "18 dec.": [
+        {
+            "day": "Mercredi",
+            "start": "15:30",
+            "end": "17:30",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Aubert",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "HIJMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "DEKL"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABCDELM"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "FGHIJKN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "FGIKN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ABCDE"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "HJLM"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        }
+    ],
+    "08 janv.": [
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "ABCDG"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "FGHJKLM"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ABCDEIN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ACEIN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "HJKLM"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "BDFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        }
+    ],
+    "15 janv.": [
+        {
+            "day": "Mercredi",
+            "start": "15:30",
+            "end": "17:30",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Aubert",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "HIJKN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "EFLM"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "ACDEFMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "BGHIJKL"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "BGHJL"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ACDEF"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "IKMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        }
+    ],
+    "22 janv.": [
+        {
+            "day": "Vendredi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "TP INFO Salle B306",
+            "professor": "M. Costadoat",
+            "room": "B306",
+            "color": "#ff8b94",
+            "group": "ABEMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:30",
+            "end": "10:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "AGJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TP Physique",
+            "professor": "M. Aubert",
+            "room": "C01",
+            "color": "#E1AB20",
+            "group": "BCDEFHI"
+        },
+        {
+            "day": "Mardi",
+            "start": "13:00",
+            "end": "14:30",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "B305",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "13:30",
+            "end": "15:30",
+            "subject": "Soutien SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "12:30",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "16:00",
+            "end": "18:00",
+            "subject": "TD SI",
+            "professor": "Mme Puig",
+            "room": "B304",
+            "color": "#22659c",
+            "group": "ABCDEFG"
+        },
+        {
+            "day": "Jeudi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "TP SI",
+            "professor": "Mme Puig",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "BDFHI"
+        },
+        {
+            "day": "Jeudi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "JKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "10:30",
+            "end": "13:00",
+            "subject": "TP SI",
+            "professor": "M. Costadoat",
+            "room": "E109-110",
+            "color": "#22659c",
+            "group": "ACEG"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD maths",
+            "professor": "M. Darreye",
+            "room": "C204",
+            "color": "#f0593f",
+            "group": "HIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "14:30",
+            "end": "16:00",
+            "subject": "TD physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFG"
+        }
+    ]
+}

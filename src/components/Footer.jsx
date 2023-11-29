@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord } from '@fortawesome/free-brands-svg-icons';
-import * as icons from '@fortawesome/free-solid-svg-icons';
-import cardsDataURL from '/cardsData.json?url';
+import cardsDataURL from '/config/cardsData.json?url';
 
 const Footer = () => {
   const [data, setData] = useState({

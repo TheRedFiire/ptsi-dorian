@@ -3,10 +3,15 @@
     {
       "icon": "faCalendarAlt",
       "iconColor": "#e74c3c",
-      "title": "Emploi du temps 2022-2023",
-      "text": "Consultez l'emploi du temps pour l'année académique 2022-2023.",
-      "link": "/documents/EDT_PTSI_S1.pdf",
-      "sublinks": []
+      "title": "Emploi du temps 2023-2024",
+      "text": "Consultez l'emploi du temps pour l'année académique 2023-2024.",
+      "link": "/calendar",
+      "sublinks": [
+        {
+          "title": "EDT_PTSI_SI.pdf",
+          "url": "/documents/EDT_PTSI_S1.pdf"
+        }
+      ]
     },
     {
       "icon": "faUsers",
@@ -69,12 +74,21 @@
   ],
   "pedagogicalLinks": [
     {
-      "icon": "faLanguage",
-      "iconColor": "#c0392b",
-      "title": "Anglais",
-      "text": "Liens pédagogiques pour le cours d'anglais.",
-      "link": "http://marie-pichon.e-monsite.com/",
-      "sublinks": []
+      "icon": "faCogs",
+      "iconColor": "#16a085",
+      "title": "Sciences de l'ingénieur",
+      "text": "Liens pédagogiques pour le cours de sciences de l'ingénieur.",
+      "link": "https://www.costadoat.fr",
+      "sublinks": [
+        {
+          "title": "costadoat.fr",
+          "url": "https://www.costadoat.fr"
+        },
+        {
+          "title": "Discussions",
+          "url": "https://forum.pt-dorian.net/index.php?p=/categories/sciences-industrielles-ptsi"
+        }
+      ]
     },
     {
       "icon": "faFlask",
@@ -117,23 +131,22 @@
       "link": "https://maths.ptsi-dorian.net/",
       "sublinks": [
         {
+          "title": "Documents",
+          "url": "https://maths.ptsi-dorian.net/"
+        },
+        {
           "title": "Discussions",
           "url": "https://forum.pt-dorian.net/index.php?p=/categories/mathematiques-ptsi"
         }
       ]
     },
     {
-      "icon": "faCogs",
-      "iconColor": "#16a085",
-      "title": "Sciences de l'ingénieur",
-      "text": "Liens pédagogiques pour le cours de sciences de l'ingénieur.",
-      "link": "https://www.costadoat.fr",
-      "sublinks": [
-        {
-          "title": "Discussions",
-          "url": "https://forum.pt-dorian.net/index.php?p=/categories/sciences-industrielles-ptsi"
-        }
-      ]
+      "icon": "faLanguage",
+      "iconColor": "#c0392b",
+      "title": "Anglais",
+      "text": "Liens pédagogiques pour le cours d'anglais.",
+      "link": "http://marie-pichon.e-monsite.com/",
+      "sublinks": []
     },
     {
       "icon": "faBook",

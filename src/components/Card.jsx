@@ -6,12 +6,24 @@ const Card = ({ icon, iconColor, title, text, link, sublinks }) => {
   const [expanded, setExpanded] = useState(false);
   const hasSublinks = sublinks && sublinks.length > 0;
 
+  const handleClick = (e) => {
+    if (hasSublinks) {
+      e.preventDefault();
+      setExpanded(!expanded);
+    }
+  };
+
+  const openLink = () => {
+    window.open(link, "_blank");
+  };
+
   return (
-    <div className="flex flex-col min-h-[180px] h-full max-w-md p-6 border rounded-xl shadow-lg bg-white border-blue-300 transition-all duration-500 transform hover:shadow-2xl">
+    <div 
+      className={`flex flex-col min-h-[180px] h-full max-w-md p-6 border rounded-xl shadow-lg bg-white border-blue-300 transition-all duration-500 transform hover:shadow-2xl ${!hasSublinks ? 'cursor-pointer' : ''}`}
+      onClick={!hasSublinks ? () => window.open(link, "_blank") : undefined}
+    >
       <div className="flex-grow">
-        <a
-          href={link}
-          target="_blank"
+        <div
           style={{ userSelect: 'none' }}
           className="flex flex-row items-center mb-2"
         >
@@ -20,21 +32,17 @@ const Card = ({ icon, iconColor, title, text, link, sublinks }) => {
             className={"mr-3 text-2xl"}
             color={iconColor}
           />
-          <h5 className="text-xl font-bold text-blue-800">{title}</h5>
-        </a>
+          <h5 className="text-xl font-bold text-blue-800 cursor-pointer" onClick={openLink}>{title}</h5>
+        </div>
         <p className="mb-4 text-gray-700">{text}</p>
       </div>
       <div>
         <a
-          href={!hasSublinks ? link : undefined}
+          href={!hasSublinks ? link : "#"}
           target="_blank"
           style={{ userSelect: 'none' }}
           className="cursor-pointer inline-flex items-center text-blue-600 hover:underline"
-          onClick={(e) => {
-            // Seulement prévenir le comportement par défaut si il y a des sous-liens
-            if (hasSublinks) e.preventDefault();
-            if (hasSublinks) setExpanded(!expanded);
-          }}
+          onClick={handleClick}
         >
           {expanded ? "Réduire" : hasSublinks ? "Explorer" : "Accéder"}
           <FontAwesomeIcon
@@ -48,8 +56,9 @@ const Card = ({ icon, iconColor, title, text, link, sublinks }) => {
             {sublinks.map((sublink, index) => (
               <a
                 key={index}
+                target="_blank"
                 href={sublink.url}
-                className="block text-blue-600 hover:underline flex items-center space-x-2"
+                className="text-blue-600 hover:underline flex items-center space-x-2"
               >
                 <FontAwesomeIcon icon={faLink} className="text-xs" />
                 <span>{sublink.title}</span>

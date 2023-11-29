@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from './Card';
 import * as icons from '@fortawesome/free-solid-svg-icons';
-import cardsDataURL from '/cardsData.json?url';
+import cardsDataURL from '/config/cardsData.json?url';
 
 const GeneralTools = () => {
   const [cards, setCards] = useState([]);
