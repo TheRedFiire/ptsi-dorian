@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import Select from 'react-select';
+import Select from "react-select";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFilePdf,
@@ -11,6 +11,7 @@ import {
   faFileAlt,
   faInfoCircle,
   faExclamationTriangle,
+  faCheckCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import FileDropzone from "../functions/FileDropzone";
 import studentsData from "../data/students.json";
@@ -22,10 +23,9 @@ const FileUpload = () => {
   const [selectedSubject, setSelectedSubject] = useState("");
   const [selectedDocumentType, setSelectedDocumentType] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
 
   const [loading, setLoading] = useState(false);
-  const [progress, setProgress] = useState(0);
-  const [loadingMessage, setLoadingMessage] = useState("");
 
   // État pour stocker les types de documents disponibles
   const [documentTypes, setDocumentTypes] = useState([]);
@@ -62,7 +62,6 @@ const FileUpload = () => {
   };
 
   const handleFileChange = (selectedFile) => {
-    setLoadingMessage(""); // réinitialiser le message de chargement
     setError("");
     if (selectedFile) {
       if (
@@ -86,39 +85,51 @@ const FileUpload = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!file || !firstName || !lastName || !selectedSubject || !selectedDocumentType) {
+    if (
+      !file ||
+      !firstName ||
+      !lastName ||
+      !selectedSubject ||
+      !selectedDocumentType
+    ) {
       setError("Tous les champs sont requis.");
       return;
     }
-  
+
     setLoading(true);
-    setLoadingMessage("Chargement en cours...");
-  
+
     const formData = new FormData();
-    formData.append('file', file);
-    formData.append('firstName', firstName);
-    formData.append('lastName', lastName);
-    formData.append('subject', selectedSubject);
-    formData.append('documentType', selectedDocumentType);
-  
+    formData.append("file", file);
+    formData.append("firstName", firstName);
+    formData.append("lastName", lastName);
+    formData.append("subject", selectedSubject);
+    formData.append("documentType", selectedDocumentType);
+
     try {
-      const response = await fetch('http://34.163.124.248:3001/upload', {
-        method: 'POST',
+      const response = await fetch("http://34.163.124.248:3001/upload", {
+        method: "POST",
         body: formData,
         // Ne définissez pas l'en-tête 'Content-Type' ici. Laissez fetch le faire.
       });
-  
+
       if (!response.ok) {
-        throw new Error('Erreur de téléchargement');
+        throw new Error("Erreur de téléchargement");
       }
-  
-      setLoadingMessage("Chargement terminé");
+
+      setSuccessMessage("Succès du téléchargement");
+      // Réinitialisez les champs ici après un succès
+      setFile(null);
+      setFirstName("");
+      setLastName("");
+      setSelectedSubject("");
+      setSelectedDocumentType("");
+      setErrorMessage("");
     } catch (error) {
       setError(error.message);
     } finally {
       setLoading(false);
     }
-  };  
+  };
 
   const isFormValid = () => {
     return (
@@ -132,12 +143,12 @@ const FileUpload = () => {
         className="max-w-4xl mx-auto p-8 bg-white backdrop-blur-md shadow-lg rounded-lg space-y-6"
         style={{ userSelect: "none" }}
       >
-       <h2 className="text-4xl font-semibold mb-5 text-center text-blue-800">
-         Dépôt de fichiers
-       </h2>
-       <form onSubmit={handleSubmit} className="space-y-5">
-         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-           <div className="flex flex-col space-y-2">
+        <h2 className="text-4xl font-semibold mb-5 text-center text-blue-800">
+          Dépôt de fichiers
+        </h2>
+        <form onSubmit={handleSubmit} className="space-y-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="flex flex-col space-y-2">
               <label
                 htmlFor="studentName"
                 className="text-lg font-medium text-gray-800 flex items-center w-full"
@@ -263,7 +274,6 @@ const FileUpload = () => {
                 className="absolute top-2 right-2 text-gray-800 hover:text-gray-600 transition duration-300"
                 onClick={() => {
                   setFile(null);
-                  setProgress(0);
                   setLoading(false);
                 }}
               >
@@ -286,19 +296,21 @@ const FileUpload = () => {
                       : "text-gray-500"
                   } text-4xl ml-3`}
                 />
-                <div className="flex flex-col max-w-sm pl-4 flex-grow">
+                <div className="flex flex-col max-w-sm pl-4 flex-grow truncate">
                   <span
-                    className="text-sm font-normal truncate"
-                    style={{ maxWidth: "calc(100% - 1rem)" }}
+                    className="text-sm font-normal truncate pr-4"
+                    title={file.name} // Tooltip pour afficher le nom complet
                   >
                     {file.name}
                   </span>
                   <span className="text-xs text-gray-500 mt-1">
                     {(file.size / 1024).toFixed(2)} KB
                   </span>
-                  <div className="relative h-1.5 mt-2 w-full rounded">
+                  <div className="relative h-1.5 mt-2 w-full rounded overflow-hidden">
                     <div className="absolute top-0 left-0 w-full h-full bg-white rounded"></div>
-                    <div className="absolute top-0 left-0 h-full bg-blue-500 w-full rounded"></div>
+                    <div
+                      className="absolute top-0 left-0 w-full h-full bg-blue-500 rounded"
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -323,11 +335,26 @@ const FileUpload = () => {
             </div>
           )}
 
+          {successMessage && (
+            <div className="flex justify-between items-center border border-green-500 bg-green-100 text-green-500 p-2 rounded text-sm mt-1 text-center">
+              <p className="flex items-center">
+                <FontAwesomeIcon icon={faCheckCircle} className="mr-2" />
+                {successMessage}
+              </p>
+              <button
+                onClick={() => setSuccessMessage("")}
+                className="text-green-500 hover:text-green-700 transition duration-300"
+              >
+                <FontAwesomeIcon icon={faTimes} />
+              </button>
+            </div>
+          )}
+
           {/* Envoyer le fichier */}
           <div className="flex justify-center">
             <button
               type="submit"
-              disabled={loading || !isFormValid()} 
+              disabled={loading || !isFormValid()}
               className={`bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-md transition duration-300 shadow hover:shadow-lg transform hover:scale-105 
           ${loading || !isFormValid() ? "opacity-50 cursor-not-allowed" : ""}`}
             >

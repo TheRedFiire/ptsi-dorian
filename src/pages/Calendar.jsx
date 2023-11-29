@@ -4,6 +4,8 @@ import DatePicker from "@hassanmojab/react-modern-calendar-datepicker";
 import Task from "../components/Task";
 import { startOfWeek } from "date-fns";
 import scheduleData from "/config/schedule_final.json?url"; // Assurez-vous que le chemin est correct
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMugHot } from "@fortawesome/free-solid-svg-icons";
 
 const daysOfWeek = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"];
 const hoursOfDay = Array.from({ length: 24 }, (_, index) => {
@@ -43,13 +45,13 @@ const TimeTable = () => {
     day: maxDate.getDate(),
   };
 
-  const [selectedDay, setSelectedDay] = useState(formattedDefaultDate);
+  const [selectedDay, setSelectedDayState] = useState(formattedDefaultDate);
   const [selectedGroup, setSelectedGroup] = useState(
     localStorage.getItem("selectedGroup") || "A"
   );
   const [weeklyTasks, setWeeklyTasks] = useState([]);
   // Ajouter un état pour le jour actuel visible sur mobile
-  const [currentDayIndex, setCurrentDayIndex] = useState(today.getDay()-1);
+  const [currentDayIndex, setCurrentDayIndex] = useState(today.getDay() - 1);
 
   // Fonction pour changer le jour actuel sur mobile
   const handleDayChange = (index) => {
@@ -80,7 +82,6 @@ const TimeTable = () => {
       const filteredTasks = tasksForWeek.filter((task) =>
         task.group.includes(selectedGroup)
       );
-      console.log(filteredTasks);
       setWeeklyTasks(filteredTasks);
     };
 
@@ -112,86 +113,11 @@ const TimeTable = () => {
     "N",
   ];
 
-  const tasks = [
-    {
-      day: "Lundi",
-      start: "8:00",
-      end: "10:30",
-      subject: "Maths",
-      professor: "M. Darreye",
-      room: "B302",
-      color: "#f0593f",
-    },
-    {
-      day: "Mardi",
-      start: "8:00",
-      end: "10:30",
-      subject: "Physique",
-      professor: "M. Aubert",
-      room: "B302",
-      color: "#E1AB20",
-    },
-    {
-      day: "Mardi",
-      start: "10:30",
-      end: "12:00",
-      subject: "Maths",
-      professor: "M. Darreye",
-      room: "B302",
-      color: "#f0593f",
-    },
-    {
-      day: "Mercredi",
-      start: "8:00",
-      end: "10:00",
-      subject: "SI",
-      professor: "M. Costadoat",
-      room: "B302",
-      color: "#22659c",
-    },
-    {
-      day: "Mercredi",
-      start: "10:00",
-      end: "12:00",
-      subject: "Français",
-      professor: "M.Chabot",
-      room: "B302",
-      color: "#744700",
-    },
-    {
-      day: "Mercredi",
-      start: "13:00",
-      end: "15:30",
-      subject: "Physique",
-      professor: "M. Aubert",
-      room: "B302",
-      color: "#E1AB20",
-    },
-    {
-      day: "Jeudi",
-      start: "14:00",
-      end: "16:00",
-      subject: "Anglais",
-      professor: "Mme. Pichon",
-      room: "B302",
-      color: "#339900",
-    },
-    {
-      day: "Vendredi",
-      start: "8:00",
-      end: "10:30",
-      subject: "Maths",
-      professor: "M. Darreye",
-      room: "B302",
-      color: "#f0593f",
-    },
-  ];
-
   // Fonction pour formater la date au format français avec le point à la fin
   function formatDateToFrench(date) {
     const formatter = new Intl.DateTimeFormat("fr-FR", {
       day: "2-digit",
-      month: "short"
+      month: "short",
     });
     const formatted = formatter.format(date);
     return (formatted.charAt(0).toUpperCase() + formatted.slice(1))
@@ -210,7 +136,7 @@ const TimeTable = () => {
       return date.toLocaleDateString("fr-FR", {
         day: "2-digit",
         month: "long",
-        year: "numeric"
+        year: "numeric",
       });
     });
   };
@@ -220,20 +146,75 @@ const TimeTable = () => {
   function isCoursePassed(courseDateString, courseEndTime) {
     const today = new Date();
     const [endHour, endMinutes] = courseEndTime.split(":").map(Number);
-  
+
     // Extraire le jour et le mois et l'année à partir de courseDateString
     const [dayString, monthString, yearString] = courseDateString.split(" ");
     const day = parseInt(dayString);
-    const monthNames = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
+    const monthNames = [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre",
+    ];
     const month = monthNames.indexOf(monthString.toLowerCase());
     const year = parseInt(yearString);
-  
+
     // Créer une date pour le cours
     const courseDate = new Date(year, month, day);
     courseDate.setHours(endHour, endMinutes, 0, 0);
 
     return courseDate < today;
-  }  
+  }
+
+  // Vérifiez si la semaine sélectionnée est vide
+  const isWeekEmpty = () => {
+    return weeklyTasks.length === 0;
+  };
+
+  const getWeekendsOfSchoolYear = (startYear) => {
+    const weekends = [];
+    const startDate = new Date(startYear, 8, 1); // 1er septembre de l'année de début
+    const endDate = new Date(startYear + 1, 6, 6); // 31 juillet de l'année suivante
+  
+    let currentDate = startDate;
+  
+    while (currentDate <= endDate) {
+      const dayOfWeek = currentDate.getDay();
+  
+      if (dayOfWeek === 0 || dayOfWeek === 6) { // 0 pour dimanche, 6 pour samedi
+        weekends.push({
+          year: currentDate.getFullYear(),
+          month: currentDate.getMonth() + 1, // Les mois sont indexés à partir de 0
+          day: currentDate.getDate(),
+        });
+      }
+  
+      currentDate.setDate(currentDate.getDate() + 1); // Avance d'un jour
+    }
+  
+    return weekends;
+  };
+  
+  // Utilisation de la fonction
+  const schoolYear = new Date().getFullYear(); // Modifier cette ligne pour tester avec une autre année
+  const disabledDays = getWeekendsOfSchoolYear(schoolYear);
+
+  const setSelectedDay = (day) => {
+    setSelectedDayState(day); // Met à jour l'état avec la nouvelle sélection
+  
+    const newDate = new Date(day.year, day.month - 1, day.day);
+    const dayIndex = newDate.getDay() - 1; // L'index du jour de la semaine (lundi = 0)
+  
+    setCurrentDayIndex(dayIndex >= 0 ? dayIndex : 6); // Ajuste pour le dimanche
+  };  
 
   return (
     <div className="container mx-auto my-4">
@@ -264,6 +245,7 @@ const TimeTable = () => {
             onChange={setSelectedDay}
             minimumDate={formattedMinDate}
             maximumDate={formattedMaxDate}
+            disabledDays={disabledDays}
             shouldHighlightWeekends
           />
         </div>
@@ -307,74 +289,68 @@ const TimeTable = () => {
         ))}
       </div>
 
-      <div className="md:m-0 flex m-2">
-        <div className="hidden md:flex flex-col bg-white text-right p-2 mr-4 pt-12">
-          {filteredHoursOfDay.map((hour) => (
-            <div
-              key={hour}
-              className="h-12 flex items-center justify-end pr-2 text-gray-400"
-            >
-              {hour}
-            </div>
-          ))}
+      {isWeekEmpty() ? (
+        <div className="flex justify-center items-center p-20 h-full">
+          <div className="text-center">
+            <FontAwesomeIcon icon={faMugHot} className="text-8xl mb-4 animate-bounce" />
+            <p className="text-xl font-bold mb-2">Profitez de votre temps libre !</p>
+          </div>
         </div>
-
-        <div className="flex-grow md:grid md:grid-cols-5">
-          {daysOfWeek.map((day, index) => (
-            <div
-              key={day}
-              className={`bg-white rounded-lg border transform transition duration-500 ${
-                index === currentDayIndex ? "block" : "hidden md:block"
-              }`}
-            >
-              <h2 className="text-xl font-bold text-gray-700 p-2 border-b mb-2">
-                {day}
-                <p className="text-sm font-semibold text-gray-500">
-                  {weekDates[index]}
-                </p>
-              </h2>
-              <div className="relative">
-                {filteredHoursOfDay.map((hour) => (
-                  <div
-                    key={`${day}-${hour}`}
-                    className="h-12 border-t flex items-center bg-gray-100"
-                  ></div>
-                ))}
-                {tasks
-                  .filter((task) => task.day === day)
-                  .map((task) => (
-                    <Task
-                      key={`${task.day}-${task.start}-${task.end}-${task.subject}`}
-                      day={day}
-                      start={task.start}
-                      end={task.end}
-                      subject={task.subject}
-                      professor={task.professor}
-                      room={task.room}
-                      color={task.color}
-                      passed={isCoursePassed(weekDates[index], task.end)}
-                    />
-                  ))}
-                {weeklyTasks
-                  .filter((task) => task.day === day)
-                  .map((task) => (
-                    <Task
-                      key={`${task.day}-${task.start}-${task.end}-${task.subject}`}
-                      day={task.day}
-                      start={task.start}
-                      end={task.end}
-                      subject={task.subject}
-                      professor={task.professor}
-                      room={task.room}
-                      color={task.color}
-                      passed={isCoursePassed(weekDates[index], task.end)}
-                    />
-                  ))}
+      ) : (
+        <div className="md:m-0 flex m-2">
+          <div className="hidden md:flex flex-col bg-white text-right p-2 mr-4 pt-12">
+            {filteredHoursOfDay.map((hour) => (
+              <div
+                key={hour}
+                className="h-12 flex items-center justify-end pr-2 text-gray-400"
+              >
+                {hour}
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+
+          <div className="flex-grow md:grid md:grid-cols-5">
+            {daysOfWeek.map((day, index) => (
+              <div
+                key={day}
+                className={`bg-white rounded-lg border transform transition duration-500 ${
+                  index === currentDayIndex ? "block" : "hidden md:block"
+                }`}
+              >
+                <h2 className="text-xl font-bold text-gray-700 p-2 border-b mb-2">
+                  {day}
+                  <p className="text-sm font-semibold text-gray-500">
+                    {weekDates[index]}
+                  </p>
+                </h2>
+                <div className="relative">
+                  {filteredHoursOfDay.map((hour) => (
+                    <div
+                      key={`${day}-${hour}`}
+                      className="h-12 border-t flex items-center bg-gray-100"
+                    ></div>
+                  ))}
+                  {weeklyTasks
+                    .filter((task) => task.day === day)
+                    .map((task) => (
+                      <Task
+                        key={`${task.day}-${task.start}-${task.end}-${task.subject}`}
+                        day={task.day}
+                        start={task.start}
+                        end={task.end}
+                        subject={task.subject}
+                        professor={task.professor}
+                        room={task.room}
+                        color={task.color}
+                        passed={isCoursePassed(weekDates[index], task.end)}
+                      />
+                    ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

@@ -169,6 +169,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "11 sept.": [
@@ -351,6 +431,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "18 sept.": [
@@ -523,6 +683,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "25 sept.": [
@@ -705,6 +945,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "02 oct.": [
@@ -877,6 +1197,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "09 oct.": [
@@ -1059,6 +1459,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "16 oct.": [
@@ -1231,6 +1711,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "06 nov.": [
@@ -1413,6 +1973,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "13 nov.": [
@@ -1585,6 +2225,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "20 nov.": [
@@ -1767,6 +2487,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "27 nov.": [
@@ -1939,6 +2739,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "04 dec.": [
@@ -2121,6 +3001,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "11 dec.": [
@@ -2293,6 +3253,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "18 dec.": [
@@ -2475,6 +3515,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "08 janv.": [
@@ -2647,6 +3767,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "15 janv.": [
@@ -2829,6 +4029,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "HIJKLMN"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ],
     "22 janv.": [
@@ -3001,6 +4281,86 @@
             "room": "B302",
             "color": "#E1AB20",
             "group": "ABCDEFG"
+        },
+        {
+            "day": "Lundi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mardi",
+            "start": "10:30",
+            "end": "12:00",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "8:00",
+            "end": "10:00",
+            "subject": "SI",
+            "professor": "M. Costadoat",
+            "room": "B302",
+            "color": "#22659c",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "10:00",
+            "end": "12:00",
+            "subject": "Français",
+            "professor": "M.Chabot",
+            "room": "B302",
+            "color": "#744700",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Mercredi",
+            "start": "13:00",
+            "end": "15:30",
+            "subject": "Physique",
+            "professor": "M. Aubert",
+            "room": "B302",
+            "color": "#E1AB20",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Jeudi",
+            "start": "14:00",
+            "end": "16:00",
+            "subject": "Anglais",
+            "professor": "Mme. Pichon",
+            "room": "B302",
+            "color": "#339900",
+            "group": "ABCDEFGHIJKLMN"
+        },
+        {
+            "day": "Vendredi",
+            "start": "8:00",
+            "end": "10:30",
+            "subject": "Maths",
+            "professor": "M. Darreye",
+            "room": "B302",
+            "color": "#f0593f",
+            "group": "ABCDEFGHIJKLMN"
         }
     ]
 }

@@ -13,9 +13,6 @@ import {
 
 const Task = ({ date, start, end, subject, professor, room, color, passed }) => {
   const [isHovered, setIsHovered] = useState(false);
-  if(passed) {
-    console.log(subject, date)
-  }
 
   const timeToPosition = (time) => {
     const [hour, minutes] = time.split(":").map(Number);

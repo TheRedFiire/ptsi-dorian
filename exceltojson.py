@@ -39,6 +39,82 @@ session_to_color = {
     'TP INFO Salle B306': '#ff8b94'
 }
 
+# Liste des cours fixes à ajouter
+tasks = [
+    {
+        "day": "Lundi",
+        "start": "8:00",
+        "end": "10:30",
+        "subject": "Maths",
+        "professor": "M. Darreye",
+        "room": "B302",
+        "color": "#f0593f",
+    },
+    {
+        "day": "Mardi",
+        "start": "8:00",
+        "end": "10:30",
+        "subject": "Physique",
+        "professor": "M. Aubert",
+        "room": "B302",
+        "color": "#E1AB20",
+    },
+    {
+        "day": "Mardi",
+        "start": "10:30",
+        "end": "12:00",
+        "subject": "Maths",
+        "professor": "M. Darreye",
+        "room": "B302",
+        "color": "#f0593f",
+    },
+    {
+        "day": "Mercredi",
+        "start": "8:00",
+        "end": "10:00",
+        "subject": "SI",
+        "professor": "M. Costadoat",
+        "room": "B302",
+        "color": "#22659c",
+    },
+    {
+        "day": "Mercredi",
+        "start": "10:00",
+        "end": "12:00",
+        "subject": "Français",
+        "professor": "M.Chabot",
+        "room": "B302",
+        "color": "#744700",
+    },
+    {
+        "day": "Mercredi",
+        "start": "13:00",
+        "end": "15:30",
+        "subject": "Physique",
+        "professor": "M. Aubert",
+        "room": "B302",
+        "color": "#E1AB20",
+    },
+    {
+        "day": "Jeudi",
+        "start": "14:00",
+        "end": "16:00",
+        "subject": "Anglais",
+        "professor": "Mme. Pichon",
+        "room": "B302",
+        "color": "#339900",
+    },
+    {
+        "day": "Vendredi",
+        "start": "8:00",
+        "end": "10:30",
+        "subject": "Maths",
+        "professor": "M. Darreye",
+        "room": "B302",
+        "color": "#f0593f",
+    }
+]
+        
 # Créer un dictionnaire structuré pour les données
 final_corrected_data = {}
 
@@ -141,6 +217,21 @@ def remove_accents(input_str):
     nfkd_form = unicodedata.normalize('NFKD', input_str)
     return "".join([c for c in nfkd_form if not unicodedata.combining(c)])
 
+# Fonction pour ajouter les cours fixes à chaque semaine
+def add_fixed_courses(week_data):
+    for task in tasks:
+        task_fixed = {
+        'day': task['day'],
+        'start': task['start'],
+        'end': task['end'],
+        'subject': task['subject'],
+        'professor': task['professor'],
+        'room': task['room'],
+        'color': task['color'],
+        'group': 'ABCDEFGHIJKLMN'
+    }
+        week_data.append(task_fixed)
+        
 # Traitement des données pour chaque semaine
 for index, row in excel_data.iterrows():
     if index > 2 and pd.notna(row['Groupes semestre 1']) and isinstance(row['Groupes semestre 1'], int):
@@ -188,6 +279,8 @@ for index, row in excel_data.iterrows():
                 
         # Vérifier et ajouter des cours supplémentaires si nécessaire
         add_additional_course_if_needed(week_data)
+        # Ajouter les cours fixes à chaque semaine
+        add_fixed_courses(week_data)
 
         final_corrected_data[week_date] = week_data
             
@@ -195,6 +288,6 @@ for index, row in excel_data.iterrows():
 # Convertir les données structurées en format JSON
 final_corrected_json = json.dumps(final_corrected_data, indent=4, ensure_ascii=False)
 
-# Enregistrer les données JSON dans un fichier
-with open('./public/schedule_final.json', 'w') as file:
+# Enregistrer les données JSON dans un fichier avec encodage UTF-8
+with open('./public/config/schedule_final.json', 'w', encoding='utf-8') as file:
     file.write(final_corrected_json)
