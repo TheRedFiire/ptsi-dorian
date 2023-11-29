@@ -32,7 +32,7 @@ Une "card" dans notre contexte est représentée par un objet JSON. Chaque card 
 
 #### `link` (Conditionnel)
 - **Description :** Lien de redirection direct.
-- **Note :** Laissez vide si des sous-liens sont présents.
+- **Note :** Remplir avec le lien principale même si des sous-liens sont présents.
 
 #### `sublinks` (Facultatif)
 - **Description :** Tableau d'objets représentant des sous-liens.
