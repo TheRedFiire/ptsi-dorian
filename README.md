@@ -5,7 +5,6 @@ Ce document fournit des instructions détaillées pour l'utilisation de différe
 
 ## Sommaire
 1. [Structure de la Card](#structure-de-la-card)
-2. [Gestion d'une Application Node.js avec PM2](#gestion-dune-application-nodejs-avec-pm2)
 
 ---
 
@@ -53,35 +52,4 @@ Une "card" dans notre contexte est représentée par un objet JSON. Chaque card 
   ]
 }
 ```
-
----
-
-## Gestion d'une Application Node.js avec PM2
-PM2 est un gestionnaire de processus robuste pour les applications Node.js en production. Il offre des fonctionnalités comme le redémarrage automatique, la surveillance et le clustering.
-
-### Installation de PM2
-Assurez-vous que Node.js et npm sont installés. Exécutez la commande suivante pour installer PM2 globalement :
-```sh
-npm install pm2 -g
-```
-
-### Démarrage de l'Application
-Lancez votre application `server.js` avec PM2 en utilisant :
-```sh
-pm2 start server.js --name "mon-application"
-```
-
-### Commandes Utiles
-- **Liste des Applications :** `pm2 list`
-- **Surveillance :** `pm2 monit`
-- **Redémarrage :** `pm2 restart "mon-application"`
-- **Rechargement :** `pm2 reload "mon-application"`
-- **Arrêt :** `pm2 stop "mon-application"`
-- **Suppression :** `pm2 delete "mon-application"`
-- **Journaux :** `pm2 logs "mon-application"`
-- **Démarrage Automatique :** `pm2 startup`
-
-### Aide et Documentation
-Consultez `pm2 --help` ou la [documentation officielle de PM2](https://pm2.keymetrics.io/docs/usage/quick-start/) pour plus d'informations.
-
 ---
