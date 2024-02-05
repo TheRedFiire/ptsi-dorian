@@ -106,7 +106,7 @@ const FileUpload = () => {
     formData.append("documentType", selectedDocumentType);
 
     try {
-      const response = await fetch("http://34.163.124.248:3001/upload", {
+      const response = await fetch("https://ptsi-dorian.net/upload.php", {
         method: "POST",
         body: formData,
         // Ne définissez pas l'en-tête 'Content-Type' ici. Laissez fetch le faire.
@@ -164,10 +164,13 @@ const FileUpload = () => {
                 classNamePrefix="react-select"
                 placeholder="Sélectionnez votre nom et prénom"
                 onChange={(selectedOption) => {
-                  const [firstName, lastName] = selectedOption.value.split(" ");
+                  const names = selectedOption.value.split(" ");
+                  const lastName = names.pop(); // Prend la dernière partie comme nom de famille
+                  const firstName = names.join(" "); // Tout le reste est considéré comme prénom
+                
                   setFirstName(firstName);
                   setLastName(lastName);
-                }}
+                }}                
               />
             </div>
           </div>

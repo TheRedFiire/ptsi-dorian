@@ -75,7 +75,6 @@ function FileDropzone({ onFileChange }) {
           className="hidden"
           accept=".png, .jpg, .jpeg, .pdf, .py"
           onChange={(e) => onFileChange(e.target.files[0])}
-          required
         />
       </label>
     </div>

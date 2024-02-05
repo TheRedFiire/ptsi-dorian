@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import unicodedata
 
 # Charger le fichier Excel
-excel_data = pd.read_excel('./public/documents/groupesS1.xlsx')
+excel_data = pd.read_excel('./public/documents/groupesS2.xlsx')
 
 # Extraire les informations nécessaires
 session_types = excel_data.iloc[0, 3:].fillna(method='ffill').values  # Types de séances de la première ligne
@@ -102,7 +102,16 @@ tasks = [
         "subject": "Anglais",
         "professor": "Mme. Pichon",
         "room": "B302",
-        "color": "#339900",
+        "color": "#c026d3",
+    },
+        {
+        "day": "Jeudi",
+        "start": "16:00",
+        "end": "18:00",
+        "subject": "TIPE",
+        "professor": "Coastadoat/Aubert",
+        "room": "B302",
+        "color": "#71717a",
     },
     {
         "day": "Vendredi",
@@ -234,7 +243,7 @@ def add_fixed_courses(week_data):
         
 # Traitement des données pour chaque semaine
 for index, row in excel_data.iterrows():
-    if index > 2 and pd.notna(row['Groupes semestre 1']) and isinstance(row['Groupes semestre 1'], int):
+    if index > 2 and pd.notna(row['Groupes semestre 2']) and isinstance(row['Groupes semestre 2'], int):
         week_date = remove_accents(row['Unnamed: 1'])
         week_data = []
         final_corrected_data[week_date] = []
@@ -289,5 +298,5 @@ for index, row in excel_data.iterrows():
 final_corrected_json = json.dumps(final_corrected_data, indent=4, ensure_ascii=False)
 
 # Enregistrer les données JSON dans un fichier avec encodage UTF-8
-with open('./public/config/schedule_final.json', 'w', encoding='utf-8') as file:
+with open('./public/config/schedule_finalS2.json', 'w', encoding='utf-8') as file:
     file.write(final_corrected_json)

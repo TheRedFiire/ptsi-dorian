@@ -20,7 +20,7 @@ const Card = ({ icon, iconColor, title, text, link, sublinks }) => {
   return (
     <div 
       className={`flex flex-col min-h-[180px] h-full max-w-md p-6 border rounded-xl shadow-lg bg-white border-blue-300 transition-all duration-500 transform hover:shadow-2xl ${!hasSublinks ? 'cursor-pointer' : ''}`}
-      onClick={!hasSublinks ? () => window.open(link, "_blank") : undefined}
+      onClick={!hasSublinks ? () => openLink : undefined}
     >
       <div className="flex-grow">
         <div

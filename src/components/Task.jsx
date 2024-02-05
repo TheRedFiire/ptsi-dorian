@@ -9,6 +9,7 @@ import {
   faSquareRootVariable,
   faClock,
   faLocationDot,
+  faMicrochip,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Task = ({ date, start, end, subject, professor, room, color, passed }) => {
@@ -62,6 +63,8 @@ const Task = ({ date, start, end, subject, professor, room, color, passed }) => 
     "Soutien SI": faGears,
     Anglais: faLanguage,
     "TP INFO Salle B306": faLaptopCode,
+    "INFO": faLaptopCode,
+    "TIPE": faMicrochip
   }[subject];
 
   return (

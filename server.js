@@ -23,7 +23,10 @@ const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     // Les champs de texte seront disponibles ici
     console.log('Text fields', req.body);
-    const dir = `./uploads/${req.body.subject}/${req.body.documentType}/${req.body.firstName}_${req.body.lastName}`;
+    const safeFirstName = req.body.firstName.replace(/\s+/g, '_'); // Remplace les espaces par des underscores
+    const safeLastName = req.body.lastName.replace(/\s+/g, '_'); // Remplace les espaces par des underscores
+
+    const dir = `./uploads/${req.body.subject}/${req.body.documentType}/${safeFirstName}_${safeLastName}`;
     fs.mkdirSync(dir, { recursive: true });
     cb(null, dir);
   },
@@ -36,7 +39,11 @@ const upload = multer({ storage: multer.memoryStorage() });
 
 app.post("/upload", upload.single("file"), (req, res) => {
   const { firstName, lastName, subject, documentType } = req.body;
-  const dir = `./uploads/${subject}/${documentType}/${firstName}_${lastName}`;
+
+  const safeFirstName = firstName.replace(/\s+/g, '_');
+  const safeLastName = lastName.replace(/\s+/g, '_');
+
+  const dir = `./uploads/${subject}/${documentType}/${safeFirstName}_${safeLastName}`;
 
   // Création du répertoire s'il n'existe pas
   fs.mkdirSync(dir, { recursive: true });

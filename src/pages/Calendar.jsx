@@ -5,7 +5,7 @@ import Task from "../components/Task";
 import { startOfWeek } from "date-fns";
 import scheduleData from "/config/schedule_final.json?url"; // Assurez-vous que le chemin est correct
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMugHot } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faMugHot } from "@fortawesome/free-solid-svg-icons";
 
 const daysOfWeek = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"];
 const hoursOfDay = Array.from({ length: 24 }, (_, index) => {
@@ -216,6 +216,12 @@ const TimeTable = () => {
     setCurrentDayIndex(dayIndex >= 0 ? dayIndex : 6); // Ajuste pour le dimanche
   };  
 
+  const handleDownloadIcal = () => {
+    // Logique pour télécharger ou générer le fichier iCal
+    // Par exemple, rediriger vers l'URL du fichier iCal
+    window.open(`/documents/ical/EDT_group_${selectedGroup}.ics`, '_blank');
+  };
+
   return (
     <div className="container mx-auto my-4">
       <div className="flex flex-row md:space-y-0 space-x-0 md:space-x-4 justify-center items-center md:mb-4">
@@ -255,6 +261,14 @@ const TimeTable = () => {
         >
           Aujourd'hui
         </button>
+        <div className="flex flex-col md:flex-row items-center justify-center pt-6 pl-4 md:pt-0 md:pl-0 z-30">
+          {/* Bouton de téléchargement iCal */}
+          <button
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg "
+          onClick={handleDownloadIcal} >
+          <FontAwesomeIcon icon={faDownload} />
+        </button>
+        </div>
       </div>
 
       <div className="md:hidden flex flex-row flex-shrink-0 sticky top-0 w-full justify-between p-5 shadow-sm z-10 rounded-t-3xl bg-white">
